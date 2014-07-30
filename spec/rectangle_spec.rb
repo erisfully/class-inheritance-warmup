@@ -9,13 +9,18 @@ describe Rectangle do
     it "takes two parameters and returns a Rectangle object" do
       expect(@rectangle).to be_an_instance_of(Rectangle)
     end
-    it "multiplies length by width" do
+    it "displays area" do
       expect(@rectangle.area).to eq(6)
+    end
+
+    it "display perimeter" do
+    expect(@rectangle.perimeter).to eq(10)
     end
   end
 end
 
 
 
-
+rectangle = Rectangle.new(2,3)
+p rectangle.perimeter
 
