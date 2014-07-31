@@ -21,6 +21,6 @@ end
 
 
 
-rectangle = Rectangle.new(2,3)
-p rectangle.perimeter
+# rectangle = Rectangle.new(2,3)
+# p rectangle.perimeter
 

@@ -9,10 +9,10 @@ class Rectangle
   end
 
   def area
-    length * width
+    @length * @width
   end
 
   def perimeter
-    (length * 2) + (width * 2)
+    (@length * 2) + (@width * 2)
   end
 end
